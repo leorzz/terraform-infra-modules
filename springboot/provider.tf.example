@@ -1,0 +1,10 @@
+# Define authentification configuration
+provider "vsphere" {
+  # If you use a domain set your login like this "MyDomain\\MyUser"
+  user           = "domain\\myuser"
+  password       = "mypassword"
+  vsphere_server = "my-vcenter.local"
+
+  # if you have a self-signed cert
+  allow_unverified_ssl = true
+}
