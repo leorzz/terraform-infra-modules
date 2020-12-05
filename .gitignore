@@ -1,3 +1,4 @@
 **/provider.tf
 .terraform*
 **/terraform.tfstate*
+terraform.tfvars
